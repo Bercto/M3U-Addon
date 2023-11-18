@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="ServusTVOE" tvg-id="ServusTVOE" group-title="IPTV-DE" tvg-logo="ServusTVOE", ServusTVOE
+pipe://ffmpeg -loglevel fatal -i https://s6.hopslan.com/servusx1/tracks-v1a1/mono.m3u8 -vcodec copy -acodec copy -metadata service_name=ServusTVOE -metadata service_provider=IPTV-DE -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
