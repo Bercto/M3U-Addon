@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="ServusTV HD (AT)" tvg-id="ServusTV.at" group-title="IPTV-AT" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/servustvhd.png",ServusTV HD (AT)
-pipe://ffmpeg -loglevel fatal -i https://s6.hopslan.com/servusx1/tracks-v1a1/mono.m3u8 -vcodec copy -acodec copy -metadata service_name=ServusTVOE -metadata service_provider=IPTV-DE -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
+pipe://ffmpeg -loglevel fatal -i https://helpfulpost.net/servus/tracks-v1a1/mono.m3u8?token=218489b0f3883a9001c892a9e355681c57cc9d0a-a3f6a0158d7e3cb68d58e360e6192fe1-1709319712-1709308912 -vcodec copy -acodec copy -metadata service_name=ServusTVOE -metadata service_provider=IPTV-DE -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 #EXTINF:-1 tvg-name="ORF eins HD" tvg-id="ORF1.at" group-title="IPTV-AT" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orf1hd.png",ORF eins HD
 pipe://ffmpeg -loglevel fatal -i https://s6.hopslan.com/orfx1/tracks-v1a1/mono.m3u8 -vcodec copy -acodec copy -metadata service_name=ORF\ eins\ HD -metadata service_provider=IPTV-DE -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 #EXTINF:-1 tvg-name="SRF eins HD" tvg-id="SRF1.ch" group-title="IPTV-AT" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orf1hd.png",SRF eins HD
